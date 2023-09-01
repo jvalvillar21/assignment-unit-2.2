@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as the name.
+// We write "if else" conditional to determine an output.
+// The if is set to the name is exactly equal to Mary, then the console log outputs 'Hi Mary!'
+// The else is set to console log an output of 'How do you do?' if the name does not equal exactly to Mary
 
 //CODE
 /*
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make a variable called 'secret'.
+// Make a variable called 'code' and set a value of 123.
+// Write a 'if' conditional to determine the value of 'secret'.
+// The if states that if code is exactly equal to '123' then the value of secret is 'super'
+// and code will have a value that doubles.
+
+// Or if the value of code is less than '250' then the value of secret is 'duper'.
+// Then console log an output for the value of secret.
 
 //CODE
 /*
@@ -70,10 +74,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  Create variable 'isStudent'. Assign it a boolean value of true.
+//  Create variable 'age' and set it to have a value of '34'.
+//  Create variable 'zip' and assign it a value of '55407'.
+//  Create a compound 'else if' conditional with the following 
+//  Set the console log to output 'You're a student on the West Coast!' if 
+//  'isStudent' equals true and 'zip' is less than 80000
+
+// Else if 'isStudent' equals false and 'age' is less than 30. Set the console log output
+// to 'What are your hobbies?'
+
+// If 'isStudent' equals 'true' then have the console log to output 'Welcome to Prime!'
+// Else set the console log to output 'How about the weather?'
 
 //CODE
 /*
@@ -136,6 +148,8 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+//FIX - Missing the expression to assign colorTwo the value of purple in the conditional.
+colorTwo= 'purple';
 }
 */
 
@@ -146,6 +160,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+//Fix the code above sets time as a constant as opposed to a variable.
+instead we use 'let time = 4;'
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -158,9 +174,20 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+
+// Fix -- description does not mention minAge as a constant therefore
+let minAge = 21;
+
+
 const minAge = 21;
 
 if(minAge <= age) {
+//Fix - the description does not call for an if else conditional, we are only checking to see 
+if age is greater or equal to minAge and if so to console log output with 'enter.'
+
+console.log ('enter');
+}
+
   console.log('no entry');
 } else {
   console.log('enter');
